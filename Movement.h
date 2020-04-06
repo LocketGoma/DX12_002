@@ -3,6 +3,7 @@
 #include "Resource.h"
 
 //참고 : D3D12DynamicIndexing Tutorial
+//오늘 목표 : 화면 띄우기
 
 using namespace DirectX;
 
@@ -20,6 +21,11 @@ public :
 
 private :
 	void Reset();
+
+
+	XMFLOAT3 initialPosition;	//최초 포지션
+	XMFLOAT3 position;			//현재 포지션
+	float moveSpeed;	
 
 };
 
