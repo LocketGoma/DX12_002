@@ -10,11 +10,11 @@
 //*********************************************************
 
 #include "Resource.h"
-#include "GameMonitor.h"
+#include "GameRenderer.h"
 
 _Use_decl_annotations_
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
 {
-    GameMonitor sample(1280, 720, L"D3D12 Dynamic Indexing Sample");
+    GameRenderer sample(1280, 720, L"D3D12 2D Shooting Game tutorial");
     return Win32Application::Run(&sample, hInstance, nCmdShow);
 }

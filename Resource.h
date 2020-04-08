@@ -11,6 +11,8 @@
 
 // or project specific include files that are used frequently, but4
 // are changed infrequently.
+//참고 자료 : https://docs.microsoft.com/ko-kr/windows/uwp/gaming/tutorial--building-the-games-uwp-app-framework
+//https://copynull.tistory.com/260
 
 #pragma once
 
