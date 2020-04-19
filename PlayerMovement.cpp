@@ -6,7 +6,8 @@ PlayerMovement::PlayerMovement() :
 	initialPosition(0, 0, 0),
 	position(initialPosition),
 	moveSpeed(20.0f),
-	lookDirection(0,0,-1)
+	lookDirection(0,0,-1),
+    keyPressed()
 {
 }
 void PlayerMovement::Init(XMFLOAT3 position) {

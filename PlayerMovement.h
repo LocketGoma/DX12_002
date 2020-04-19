@@ -20,6 +20,23 @@ public :
 
 
 private :
+	typedef struct KeyPressed
+	{
+		//bool w;
+		//bool a;
+		//bool s;
+		//bool d;
+
+		bool space;
+		bool z;
+		bool x;
+
+		bool left;
+		bool right;
+		bool up;
+		bool down;
+	}KeyPressed;
+
 	void Reset();
 
 
@@ -31,19 +48,4 @@ private :
 	KeyPressed keyPressed;
 };
 
-typedef struct KeyPressed
-{
-	//bool w;
-	//bool a;
-	//bool s;
-	//bool d;
 
-	bool space;
-	bool z;
-	bool x;
-
-	bool left;
-	bool right;
-	bool up;
-	bool down;
-}KeyPressed;

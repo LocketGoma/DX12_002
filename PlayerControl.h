@@ -12,7 +12,4 @@ private:
 
 };
 
-class PlayerControl
-{
-};
 

@@ -153,12 +153,17 @@ void GameRenderer::LoadAssets()
         {
             ThrowIfFailed(HRESULT_FROM_WIN32(GetLastError()));
         }
+        std::string path = "Assets/blob.gif";
 
-        //Platform::String^ path = Platform::String::Concat(path, "Assets\\blob.gif");
-        //CreateWICTextureFromFile
-
-
-
+        /*
+        Vertex triangleVertices[] =
+        {
+            { { 0.0f, 0.25f * 1, 0.0f }, { 0.5f, 0.0f } },
+            { { 0.25f, -0.25f * 1, 0.0f }, { 1.0f, 1.0f } },
+            { { -0.25f, -0.25f * 1, 0.0f }, { 0.0f, 1.0f } }
+        };
+        const UINT vertexBufferSize = sizeof(triangleVertices);
+        */
 
     }
 }

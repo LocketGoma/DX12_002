@@ -20,8 +20,10 @@
 // An example of this can be found in the class method: OnDestroy().
 
 //-- 화면 출력부 = Renderer
+//https://github.com/microsoft/DirectXTK12/wiki/Sprites-and-textures
 
 using Microsoft::WRL::ComPtr;
+using namespace DirectX;
 
 class GameRenderer : public DXSample
 {
@@ -57,4 +59,11 @@ private:
     void LoadAssets();
     void PopulateCommandList();
     void WaitForPreviousFrame();
+
+    struct Vertex
+    {
+        XMFLOAT3 position;
+        XMFLOAT2 uv;
+    };
+
 };
